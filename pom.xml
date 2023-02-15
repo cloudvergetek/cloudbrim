@@ -1,5 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.cloudbrim</groupId>
   <artifactId>cloudbrim</artifactId>
@@ -64,6 +64,36 @@
 				<target>${jdk.version}</target>
 				</configuration>
 		</plugin>
+	    <plugin>
+	        <groupId>com.microsoft.azure</groupId>
+	        <artifactId>azure-webapp-maven-plugin</artifactId>
+	        <version>2.9.0</version>
+	        <configuration>
+	            <schemaVersion>v2</schemaVersion>
+	            <subscriptionId>993c36c4-5e92-4be3-8505-7f0b21ca6621</subscriptionId>
+	            <resourceGroup>cloudbrim</resourceGroup>
+	            <appName>cloudbrim</appName>
+	            <pricingTier>F1</pricingTier>
+	            <region>eastus</region>
+	            <appServicePlanName>cloudBrimServicePlans</appServicePlanName>
+	            <appServicePlanResourceGroup>cloudbrim</appServicePlanResourceGroup>
+	            <runtime>
+	                <os>Windows</os>
+	                <javaVersion>Java 11</javaVersion>
+	                <webContainer>Tomcat 10.0</webContainer>
+	            </runtime>
+	            <deployment>
+	                <resources>
+	                    <resource>
+	                        <directory>${project.basedir}/target</directory>
+	                        <includes>
+	                            <include>*.war</include>
+	                        </includes>
+	                    </resource>
+	                </resources>
+	            </deployment>
+	        </configuration>
+	    </plugin>
 	</plugins>
   </build>
 </project>
