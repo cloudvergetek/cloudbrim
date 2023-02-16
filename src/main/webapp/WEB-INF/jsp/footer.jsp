@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cloud Verge | Managed Network Services, SD-WAN Provider</title>
+    <title>Cloud Brim | Managed Network Services, SD-WAN Provider</title>
     <link rel="shortcut icon" href="resources/images/icons/cloudBrimIcon.png">
 </head>
 <body>
@@ -68,7 +68,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-md-7 col-12">
-                        <img src="resources/images/logo/logoName.png" class="logo_name img-fluid" alt="CLOUD VERGE">
+                        <img src="resources/images/logo/logoName.png" class="logo_name img-fluid" alt="CLOUD Brim">
                         <p class="copyright-text mb-0">Copyright © 2036
                         </p>
                     </div>

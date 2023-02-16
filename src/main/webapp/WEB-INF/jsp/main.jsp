@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cloud Verge | Managed Network Services, SD-WAN Provider</title>
+    <title>Cloud Brim | Managed Network Services, SD-WAN Provider</title>
     <link rel="shortcut icon" href="resources/images/icons/cloudBrimIcon.png">
 </head>
 <body>
@@ -137,7 +137,7 @@
                     <div class="col-lg-6 col-12">
                         <div class="row">
                             <div id="accordion"  class="custom-text-box">
-                                <h2 class="mb-2">Cloud Verge Offerings</h2>
+                                <h2 class="mb-2">Cloud Brim Offerings</h2>
                                 <div class="card">
                                     <div class="card-header">
                                         <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
@@ -511,7 +511,7 @@
                         <h2 class="text-white mb-4">Are You The One <Strong>?</Strong></h2>
 
                         <form class="custom-form volunteer-form mb-5 mb-lg-0" action="#" method="post" role="form">
-                            <h3 class="mb-4">Become a VERGE today</h3>
+                            <h3 class="mb-4">Become a Brim today</h3>
 
                             <div class="row">
                                 <div class="col-lg-6 col-12">

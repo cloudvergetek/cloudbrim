@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cloud Verge | Managed Network Services, SD-WAN Provider</title>
+    <title>Cloud Brim | Managed Network Services, SD-WAN Provider</title>
     <link rel="shortcut icon" href="resources/images/icons/cloudBrimIcon.png">
 
     <!-- CSS FILES -->
@@ -72,10 +72,10 @@
     <nav class="navbar navbar-expand-lg bg-light shadow-lg">
         <div class="container">
             <a id="logo" class="navbar-brand" href="index.html">
-                <img src="resources/images/logo/logo.png" class="logo img-fluid" alt="CLOUD VERGE">
+                <img src="resources/images/logo/logo.png" class="logo img-fluid" alt="CLOUD BRIM">
                 <span>
-                    <!--CLOUD VERGE-->
-                    <img src="resources/images/logo/logoName.png" class="logo_name img-fluid" alt="CLOUD VERGE">
+                    <!--CLOUD BRIM-->
+                    <img src="resources/images/logo/logoName.png" class="logo_name img-fluid" alt="CLOUD BRIM">
                     <small>Managed Network Services, SD-WAN Provider</small>
                 </span>
             </a>
