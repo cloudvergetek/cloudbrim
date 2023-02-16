@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Cloud Verge | Managed Network Services, SD-WAN Provider</title>
+    <title>Cloud Brim | Managed Network Services, SD-WAN Provider</title>
     <link rel="shortcut icon" href="resources/images/icons/cloudBrimIcon.png">
 
     <!-- CSS FILES -->
